@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manu Kaushik | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>Manu Kaushik</h1>
+    <nav>
+      <a href="#" onclick="showSection('home')" class="hideOnMobile">Home</a>
+      <a href="#" onclick="showSection('education')" class="hideOnMobile">Education</a>
+      <a href="#" onclick="showSection('about')" class="hideOnMobile">About</a>
+      <a href="#" onclick="showSection('projects')" class="hideOnMobile">Projects</a>
+      <a href="#" onclick="showSection('contact')" class="hideOnMobile">Contact</a>
+      <a href="#" onclick="showSidebar()" class="menu-button"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+    </nav>
+  </header>
+    <nav class="sidebar">
+      <a href="#" onclick="hideSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+      <a href="#" onclick="showSection('home')">Home</a>
+      <a href="#" onclick="showSection('education')">Education</a>
+      <a href="#" onclick="showSection('about')">About</a>
+      <a href="#" onclick="showSection('projects')">Projects</a>
+      <a href="#" onclick="showSection('contact')">Contact</a>
+    </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="section active">
+    <img src="Manu.jpeg" alt="Manu Kaushik" />
+    <h1>Manu Kaushik</h1>
+    <p>Frontend Developer passionate about building elegant and responsive web interfaces.<br>HTML | CSS | JavaScript | Bootstrap | SQL</p>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section education">
+    <h2>Education</h2>
+    <div class="MCA">
+      <h3>Master In Computer Application(MCA)</h3>
+      <p>IIMT Engineering College, Meerut<br>Uttar Pradesh, India<br>Year: 2023-2025</p>
+      <p>SGPA: 7.2</p>
+    </div>
+    <div class="BCA">
+      <h3>Bachelor In Computer Application(BCA)</h3>
+      <p>JIEI, Greater Noida<br>Uttar Pradesh, India<br>Year: 2018-2021</p>
+      <p>Percentage: 64%</p>
+    </div>
+    <div class="twelth">
+      <h3>Higher Secondary(12th)</h3>
+      <p>Genius Public School, Pahasu<br>Uttar Pradesh, India<br>Year: 2016-2018</p>
+      <p>Percentage: 66%</p>
+    </div>
+    <div class="tenth">
+      <h3>Secondary(10th)</h3>
+      <p>Genius Public School, Pahasu<br>Uttar Pradesh, India<br>Year: 2014-2016</p>
+      <p>Percentage: 82%</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+      <p>Hi! I'm Manu Kaushik, a dedicated and creative Frontend Developer who enjoys building clean, responsive, and user-friendly websites. With a strong grasp of core web technologies, I bring ideas to life through visually appealing and functional interfaces.
+      <br>I love turning designs into interactive websites and continuously improving my skills to stay up to date with the latest web trends. Whether I'm coding from scratch or working within platforms like Shopify, I aim to deliver smooth and engaging user experiences.</p>
+      <h3>Skills:</h3>
+      <p>HTML, CSS, JavaScript, Bootstrap, SQL</p>
+      <h3>Tools I Use:</h3>
+      <p>Visual Studio Code (VS Code) – for writing and managing code
+        <br>Git – for version control and collaboration
+        <br>GitHub – for hosting and sharing projects
+        <br>Shopify – for eCommerce and theme customization
+        <br>Canva – for quick graphic design and UI mockups
+      </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>This is my personal portfolio website, built using HTML, CSS, and JavaScript to showcase my skills, projects, and professional background as a frontend developer. The site features a responsive layout, interactive elements, and smooth navigation to create a user-friendly experience.
+
+      The main goal of this project was to create a clean and modern interface where visitors can explore my work, learn about my journey, and get in touch easily. JavaScript was used to enhance interactivity, such as dynamic content display and smooth scrolling.</p>
+    </div>
+    <div class="project">
+      <h3>Amazon Clone</h3>
+      <p>This project is a frontend clone of the Amazon website, designed to replicate the look and feel of one of the world’s most popular e-commerce platforms. It includes Amazon-style homepage with banner, product cards, categories, Search bar, footer sections UI- all created using HTML, CSS. The project helped me sharpen my frontend skills and understand the structure of real-world web interfaces.</p>
+    </div>
+    <div class="project">
+      <h3>Netflix Login page</h3>
+      <p>This project is a frontend clone of the Netflix login page, designed using HTML and CSS. It replicates the clean, modern UI of Netflix's sign-in screen, including responsive layout, input fields, buttons, background styling, and form structure. The goal of this project was to improve my skills in layout design, CSS styling, and responsive web development by recreating a familiar and professional interface.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out to me through any of the platforms below:</p>
+    <br>
+    <p>Email: <a href="mailto:manukaushik109@gmail.com">manukaushik109@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Manukaushik109" target="_blank">github.com/Manukaushik109</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/manu-kaushik-989751208/" target="_blank">linkedin.com/in/manu-kaushik-989751208</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Manu Kaushik. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function showSection(id) {
+      const sections = document.querySelectorAll('.section');
+      sections.forEach(section => section.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+    function showSidebar() {
+      const sidebar = document.querySelector('.sidebar');
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar() {
+      const sidebar = document.querySelector('.sidebar');
+      sidebar.style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>
